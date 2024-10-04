@@ -1,0 +1,51 @@
+.movie-schedule-app {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.date-selector {
+  margin-bottom: 20px;
+}
+
+.movie-schedule-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.region-theater-box {
+  display: flex;
+  gap: 10px;
+}
+
+.movie-list,
+.region-list,
+.theater-list,
+.schedule-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-height: 200px; /* 공간을 효율적으로 사용 */
+  overflow-y: auto;
+}
+
+.movie-list li,
+.region-list li,
+.theater-list li,
+.schedule-list li {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.movie-list li:hover,
+.region-list li:hover,
+.theater-list li:hover,
+.schedule-list li:hover {
+  background-color: #eee;
+}
